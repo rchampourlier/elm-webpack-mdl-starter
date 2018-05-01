@@ -8,14 +8,14 @@ A simple Webpack setup for writing [Elm](http://elm-lang.org/) apps:
 * Support for CSS/SCSS (with Autoprefixer), image assets
 * Bootstrap 3.3+ (Sass version)
 * Bundling and minification for deployment
-* Basic app scaffold, using `Html.beginnerProgram`
+* Basic app scaffold with MDL
 * A snippet of example code to get you started!
 
 
 ### Install:
 Clone this repo into a new project folder, e.g. `my-elm-project`:
 ```
-git clone https://github.com/moarwick/elm-webpack-starter my-elm-project
+git clone https://github.com/rchampourlier/elm-webpack-mdl-starter my-elm-project
 cd my-elm-project
 ```
 
@@ -53,6 +53,10 @@ npm run build
 
 
 ### Changelog
+
+**Ver 0.8.6-fork-elm-webpack-mdl-starter**
+* Added elm-mdl dependency
+* Updated scaffold app to use MDL
 
 **Ver 0.8.6**
 * Update Packages (-> Webpack 2)

@@ -1,18 +1,19 @@
 {
-  "name": "elm-webpack-starter",
-  "description": "Webpack setup for writing Elm apps",
+  "name": "elm-webpack-mdl-starter",
+  "description": "Webpack + MDL setup for writing Elm apps",
   "version": "0.8.6",
   "license": "MIT",
-  "author": "Peter Morawiec",
+  "author": "Romain Champourlier",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moarwick/elm-webpack-starter"
+    "url": "https://github.com/rchampourlier/elm-webpack-mdl-starter"
   },
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "prebuild": "rimraf dist",
     "build": "webpack",
-    "reinstall": "npm i rimraf && rimraf node_modules && npm uninstall -g elm && npm i -g elm && npm i && elm package install"
+    "reinstall": "npm i rimraf && rimraf node_modules && npm uninstall -g elm && npm i -g elm && npm i -g elm-github-install && npm i && elm install",
+    "elm-install": "rm -Rf elm-stuff && elm-install"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
