@@ -1,3 +1,5 @@
+**[elm-mdl](https://github.com/debois/elm-mdl) is not supported anymore. Consequently, I'm archiving this project too.**
+
 # elm-webpack-starter
 
 
